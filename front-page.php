@@ -36,7 +36,7 @@
     
             <!-- Button Section with AOS animation for flip left effect -->
             <div class="hero__content-button" data-aos="flip-left" data-aos-duration="3000">
-                <button class="hero__button"><a href="<?php echo esc_url('home_hero_button_url', '#') ?>"><?php echo esc_html(get_theme_mod('home_hero_button', 'Get Started')); ?></a></button>
+                <button class="hero__button"><a href="<?php echo esc_url( get_theme_mod('home_hero_button_url', '#')); ?>"><?php echo esc_html(get_theme_mod('home_hero_button', 'Get Started')); ?></a></button>
             </div>
     
         </div>

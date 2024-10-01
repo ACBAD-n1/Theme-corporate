@@ -11,6 +11,7 @@ function corporate_scripts() {
 
 
     wp_enqueue_script( 'jquery');
+    wp_enqueue_script( 'corporate-aos', 'https://unpkg.com/aos@2.3.1/dist/aos.js', true );
 	wp_enqueue_script( 'corporate-js', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
     wp_enqueue_script( 'corporate-scripts', get_template_directory_uri() . '/assets/js/scripts.js', array(), _S_VERSION, true );
 
